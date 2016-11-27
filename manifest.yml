@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 64M
+  instances: 1
+  domain: mybluemix.net
+  name: Jiapei-CS252
+  host: Jiapei-CS252
+  disk_quota: 2048M
+  services:
+  - availability-monitoring-auto
